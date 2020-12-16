@@ -55,50 +55,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "ConfURIDialer",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/ConfURIDialer/ConfURIDialer.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "DeviceInfo",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/DeviceInfo/DeviceInfo.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "DeviceStatisticsService",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/DeviceStatisticsService/DeviceStatisticsService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "DynamicDDSService",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/DynamicDDSService/DynamicDDSService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "PerformanceMode",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/PerformanceMode/PerformanceMode.apk",
@@ -110,64 +66,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "QColor",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/QColor/QColor.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "QTIDiagServices",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/QTIDiagServices/QTIDiagServices.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "QdcmFF",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/QdcmFF/QdcmFF.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "QtiSystemService",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/QtiSystemService/QtiSystemService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "SimContact",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/SimContact/SimContact.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -190,17 +91,6 @@ android_app_import {
 	name: "atfwd",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/atfwd/atfwd.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "colorservice",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/colorservice/colorservice.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -319,17 +209,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "workloadclassifier",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/workloadclassifier/workloadclassifier.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "xdivert",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/xdivert/xdivert.apk",
@@ -337,18 +216,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "QAS_DVC_MSP",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
 	system_ext_specific: true,
 }
 

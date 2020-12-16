@@ -558,20 +558,10 @@ PRODUCT_PACKAGES += \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
-    ConfURIDialer \
-    DeviceInfo \
-    DeviceStatisticsService \
-    DynamicDDSService \
     PerformanceMode \
-    QColor \
-    QTIDiagServices \
-    QdcmFF \
-    QtiSystemService \
     QtiTelephonyService \
-    SimContact \
     WigigTetheringRRO \
     atfwd \
-    colorservice \
     com.qualcomm.qti.services.secureui \
     com.qualcomm.qti.services.systemhelper \
     datastatusnotification \
@@ -582,9 +572,7 @@ PRODUCT_PACKAGES += \
     uimlpaservice \
     uimremoteclient \
     uimremoteserver \
-    workloadclassifier \
     xdivert \
-    QAS_DVC_MSP \
     WfdService \
     dpmserviceapp \
     ims \
